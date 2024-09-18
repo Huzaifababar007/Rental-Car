@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/ava-1.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
+import ava04 from '../../assets/all-images/ava-4.jpg'
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
+    name: "AbdulMoiz",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
@@ -18,7 +19,7 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "David Lisa",
+    name: "Muuna",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
@@ -28,7 +29,7 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Hilton King",
+    name: "AMuhib",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
@@ -38,13 +39,13 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Jhon Doe",
+    name: "Alina",
     experience: "5 years of experience",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava01,
+    imgUrl: ava04,
   },
 ];
 
@@ -59,18 +60,18 @@ const OurMembers = () => {
 
               <div className="single__member-social">
                 <Link to={item.fbUrl}>
-                  <i class="ri-facebook-line"></i>
+                  <i className="ri-facebook-line"></i>
                 </Link>
                 <Link to={item.twitUrl}>
-                  <i class="ri-twitter-line"></i>
+                  <i className="ri-twitter-line"></i>
                 </Link>
 
                 <Link to={item.linkedinUrl}>
-                  <i class="ri-linkedin-line"></i>
+                  <i className="ri-linkedin-line"></i>
                 </Link>
 
                 <Link to={item.instUrl}>
-                  <i class="ri-instagram-line"></i>
+                  <i className="ri-instagram-line"></i>
                 </Link>
               </div>
             </div>

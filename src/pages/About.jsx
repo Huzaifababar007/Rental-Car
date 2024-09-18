@@ -32,27 +32,27 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Welcome to <b>RC Rent Car Service</b>, where we offer a diverse range of vehicles to meet all your travel needs, from compact cars to luxury sedans. 
+                We are committed to providing exceptional service at competitive prices, ensuring a seamless and stress-free experience. 
+                Whether you're traveling for business or leisure, our dedicated team is here to make your journey smooth and enjoyable.
+                Choose <b>RC Rent Car Service</b> for reliable car rentals and outstanding customer satisfaction.
                 </p>
 
-                <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                <p className='section__description'>
+                Our extensive fleet includes a variety of vehicles, ensuring you find the perfect match for any occasion. 
+                We prioritize your convenience and satisfaction, offering flexible rental options and unbeatable customer support. 
+                With <b>RC Rent Car Service</b>, you can explore with confidence, knowing you have a reliable partner on the road. 
+                Experience hassle-free car rentals with us today!
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
                   <span className="fs-4">
-                    <i class="ri-phone-line"></i>
+                    <i className="ri-phone-line"></i>
                   </span>
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h4>+92 345 6785630</h4>
                   </div>
                 </div>
               </div>

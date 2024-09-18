@@ -30,15 +30,15 @@ const BlogDetails = () => {
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
                   <span className="blog__author">
-                    <i class="ri-user-line"></i> {blog.author}
+                    <i className="ri-user-line"></i> {blog.author}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
-                    <i class="ri-calendar-line"></i> {blog.date}
+                    <i className="ri-calendar-line"></i> {blog.date}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
-                    <i class="ri-time-line"></i> {blog.time}
+                    <i className="ri-time-line"></i> {blog.time}
                   </span>
                 </div>
 
@@ -55,16 +55,19 @@ const BlogDetails = () => {
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
+                    <h6 className=" fw-bold">Abdul Moiz</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
                     <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                       Your blog on regular car maintenance is spot on! 
+                       It’s a great reminder of how small, consistent 
+                       efforts can save us from major headaches and 
+                       expenses down the road. Loved the 
+                       quotes—especially the focus on safety and 
+                       prevention!
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
-                      <i class="ri-reply-line"></i> Replay
+                      <i className="ri-reply-line"></i> Replay
                     </span>
                   </div>
                 </div>

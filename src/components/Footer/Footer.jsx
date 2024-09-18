@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
+                  <i className="ri-car-line"></i>
                   <span>
                     Rent Car <br /> Service
                   </span>
@@ -49,10 +49,7 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              Discover reliable and affordable car rental services tailored to meet your travel needs. Whether you're planning a road trip, business journey, or weekend getaway, our diverse fleet offers the perfect ride for every occasion. Book with ease and enjoy seamless pick-up and drop-off options to make your journey smooth and hassle-free.
             </p>
           </Col>
 
@@ -72,10 +69,10 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">123 Sahiwal City, Pakistan</p>
+              <p className="office__info">Phone: +92 345 6785630</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: RCService@gmail.com</p>
 
               <p className="office__info">Office Time: 10am - 7pm</p>
             </div>
@@ -88,7 +85,7 @@ const Footer = () => {
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
-                  <i class="ri-send-plane-line"></i>
+                  <i className="ri-send-plane-line"></i>
                 </span>
               </div>
             </div>
@@ -97,8 +94,7 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                <i className="ri-copyright-line"></i>Copyright {year}, Rent Car Service. All rights reserved.
               </p>
             </div>
           </Col>
